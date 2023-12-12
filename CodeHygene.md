@@ -1,8 +1,9 @@
-# Code Hygene
+# Code Hygene 
 
 ## All Code
 
 >**COMMENTS -- ALWAYS BE VERBOSE**
+>> **MORE PROSE LESS CODE**
 
 ## JavaScript
 
