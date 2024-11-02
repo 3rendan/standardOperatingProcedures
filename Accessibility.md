@@ -12,7 +12,16 @@ _*All APT web projects should be as accessible as possible to the largest popula
 ```
 
   * include this styling in _general.scss
+  *
+  * *forms  and navigation should always have*  
+
+```jsx
+tabIndex={0}
+```
   
+  Elements with tabIndex={0} may still benefit accessibility on mobile by enhancing focus management for screen readers, which can help users navigate more intuitively through complex forms or modals. 
+
+
   ```scss
   .skip-link {
     position: absolute;
